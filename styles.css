@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+  transition: opacity 1s ease-in-out; /* Smooth transition for fade effect */
+}
+
+.container {
+  text-align: center;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Header Styles */
+.header {
+  font-family: 'Cedarville Cursive', cursive; /* Google Fonts: Cedarville Cursive */
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #779668;
+}
+
+/* Image Styles */
+.carnation-image {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styles */
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button.yes {
+  background-color: #5c945a; /* Green for "Yes" */
+  color: white;
+}
+
+.button.no {
+  background-color: #944040; /* Red for "No" */
+  color: white;
+  position: relative;
+  padding: 10px 20px; /* Keep the rectangle shape for "No" button */
+}
+
+/* Hover effect for "No" button */
+.button.no:hover {
+  cursor: pointer;
+}
